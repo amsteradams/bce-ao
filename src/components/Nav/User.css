@@ -1,0 +1,22 @@
+#user{
+    display:flex;
+    flex-direction: row;
+    width:22%;
+}
+#user-left{
+    padding: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    width:70%;
+}
+#img-user{
+    height:60%;
+    margin: auto;
+}
+
+#user-title{
+    color:rgba(0, 0, 0, 0.5);
+    font-size: 0.9em;
+}

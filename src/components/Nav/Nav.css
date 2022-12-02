@@ -1,0 +1,29 @@
+nav{
+    height:7%;
+    border-bottom:1px solid rgb(238,238,238);
+    display:flex;
+    flex-direction: row;
+    overflow: visible;
+}
+
+#nav-ctn{
+    display:flex;
+    flex-direction: row;
+    width:100%;
+}
+
+#nav-title{
+    padding-left: 2%;
+    width:75%;
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:bolder;
+    font-size: 170%;
+    color:rgb(68,68,68)
+}
+
+#nav-title span{
+    font-size: 70%;
+    margin-left: 1%;
+}

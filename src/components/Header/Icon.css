@@ -1,0 +1,18 @@
+#icon{
+    width:100%;
+    height:auto;
+    height:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#icon:hover{
+    background-color: rgb(230,230,230);
+}
+
+.icons{
+    width:50%;
+    margin: 30%;
+}

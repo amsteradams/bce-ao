@@ -1,0 +1,53 @@
+#ethereum{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height:90%;
+}
+
+#eth-title{
+    margin-top: 5%;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+#input-frame{
+    margin-top: 5%;
+    background-color: rgba(0, 0, 0, 0.2);
+    height:6%;
+    width:70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#input-frame img{
+    position: absolute;
+    width:3%;
+    left:20%;
+}
+
+#input-frame input{
+    text-align: center;
+    width:95%;
+    height:60%;
+    border-radius: 5px;
+    border:none;
+}
+
+#input-frame input:focus{
+    border:none;
+    outline: none;
+}
+
+.error-msg{
+    display: none;
+}
+
+.error-activ{
+    margin-top: 1%;
+    font-size: 0.9em;
+    color:red;
+}
